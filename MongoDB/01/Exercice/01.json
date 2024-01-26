@@ -1,0 +1,15 @@
+{
+    "cours": "NoSQL",
+    "semstre": "2ième",
+    "anee": 2024,
+    "etudiants": [
+        {
+            "prenom": "John",
+            "nom": "Doe"
+        },
+        {
+            "prenom": "Bob",
+            "nom": "Doe"
+        }
+    ]
+}
