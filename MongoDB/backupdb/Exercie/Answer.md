@@ -1,9 +1,12 @@
 Answer BackUp and Restore
 ======
-* `docker exec -i mongo mongoimport`  
-        `--uri=mongodb://root:admin@localhost:27017`  
-        `--authenticationDatabase admin`  
-        `--db="library" /backupdb/books.json`
+* 2.1 :
+```
+docker exec -i mongo mongoimport
+     --uri=mongodb://root:admin@localhost:27017
+     --authenticationDatabase admin
+     --db="library" /backupdb/books.json
+```
     
 * `docker exec -i mongo mongodump`  
   `--host=localhost`  
@@ -31,7 +34,3 @@ Answer BackUp and Restore
   `--nsInclude=library.books`  
   `--drop`  
   `--authenticationDatabase=admin /backupdb/mongo-dump-gzip-012624`  
-```python
-def exemple():
-print("Ceci est un exemple de code en python.")
-```
