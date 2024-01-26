@@ -22,7 +22,7 @@ Answer BackUp and Restore
   `--uri=mongodb://root:admin@localhost:27017`  
   `--authenticationDatabase=admin /backupdb/mongo-dump-gzip-012624/library`
 * `docker exec -i mongo mongorestore`
-  `--gzip`  
+  `--gzip`    
   `--uri=mongodb://root:admin@localhost:27017`  
   `--nsInclude=library.books`  
   `--drop`  
