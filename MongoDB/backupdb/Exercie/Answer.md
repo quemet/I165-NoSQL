@@ -1,8 +1,7 @@
 Answer BackUp and Restore
 ======
-●
-```
- docker exec -i mongo mongoimport
+  ```
+● docker exec -i mongo mongoimport
      --uri=mongodb://root:admin@localhost:27017
      --authenticationDatabase admin
      --db="library" /backupdb/books.json
