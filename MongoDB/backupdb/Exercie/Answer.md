@@ -31,3 +31,7 @@ Answer BackUp and Restore
   `--nsInclude=library.books`  
   `--drop`  
   `--authenticationDatabase=admin /backupdb/mongo-dump-gzip-012624`  
+```python
+def exemple():
+print("Ceci est un exemple de code en python.")
+```
