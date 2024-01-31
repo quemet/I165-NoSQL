@@ -57,3 +57,6 @@ db.employes.deleteMany({ prenom: "Christophe" });
 db.user.drop();
 
 db.dropDatabase();
+
+const cursor = db.employes.find().toArray();
+cursor.forEach(d => printjson(d.nom));
