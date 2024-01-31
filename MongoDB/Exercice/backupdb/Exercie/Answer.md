@@ -1,14 +1,14 @@
 Answer BackUp and Restore
 ======
   ```
-● 2.1 docker exec -i mongo mongoimport
+● 2.1: docker exec -i mongo mongoimport
      --uri=mongodb://root:admin@localhost:27017
      --authenticationDatabase admin
      --db="library" /backupdb/books.json
 ```
 
 ```   
-● 2.2 docker exec -i mongo mongodump
+● 2.2: docker exec -i mongo mongodump
   --uri mongodb://root:admin@localhost:27017 
   --authenticationDatabase=admin   
   --db="library"
@@ -16,7 +16,7 @@ Answer BackUp and Restore
 ```
 
 ```
-● 2.3 docker exec -i mongo mongodump 
+● 2.3: docker exec -i mongo mongodump 
   --uri=mongodb://root:admin@localhost:27017  
   --gzip  
   --out=/backupdb/mongo-dump-gzip-012624
@@ -24,7 +24,7 @@ Answer BackUp and Restore
 
 ```
   
-● 2.4 docker exec -i mongo mongorestore
+● 2.4: docker exec -i mongo mongorestore
   --uri=mongodb://root:admin@localhost:27017
   --authenticationDatabase=admin    
   --gzip --drop
