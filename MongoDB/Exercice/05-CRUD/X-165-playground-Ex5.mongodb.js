@@ -1,11 +1,14 @@
+// Permet d' utiliser la db dB_entreprise
 use('db_entreprise');
 
+// Insere dans la collection employes un objet JSON
 db.employes.insertOne({
     "nom": "Müller",
     "prenom": "Pascal",
     "anciennete": 12,
 });
 
+// Insere dans la collection employes plusieurs objet JSON
 db.employes.insertMany([
     {
         "nom": "Remond",
@@ -19,10 +22,13 @@ db.employes.insertMany([
     }
 ]);
 
+// Trouve un document avec comme prénom Félix et comme anciennette 10
 db.employes.findOne({ prenom: "Félix", anciennete: 10 });
 
+// Trouve un document avec come ville Paris
 db.employes.findOne({ "adresse.ville": "Paris" });
 
+//
 db.employes.find({ anciennete: 7 });
 
 db.employes.find({ "adresse.ville": "Toulouse" }).count();
