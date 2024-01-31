@@ -38,3 +38,11 @@ Answer BackUp and Restore
   --gzip --drop 
   --nsInclude=library.books /backupdb/mongo-dump-gzip-012624
 ```
+
+```
+● docker exec -i mongo mongoreexport
+  --uri=mongodb://root:admin@localhost:27017
+  --authenticationDatabase=admin   
+  --db=library --collection=books 
+  --out=/backupdb/library-book.json
+```
