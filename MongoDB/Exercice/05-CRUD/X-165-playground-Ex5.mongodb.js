@@ -27,7 +27,7 @@ db.employes.findOne({ prenom: "Félix", anciennete: 10 });
 
 // Trouve un document avec come ville Paris
 db.employes.findOne({ "adresse.ville": "Paris" });
-
+// Trouve les documents
 db.employes.find({ anciennete: 7 });
 
 db.employes.find({ "adresse.ville": "Toulouse" }).count();
