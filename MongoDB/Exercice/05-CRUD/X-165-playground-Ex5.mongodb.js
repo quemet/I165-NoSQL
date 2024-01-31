@@ -53,3 +53,7 @@ db.employes.findOneAndUpdate({ nom: "King", prenom: "David"}, {
 db.employes.deleteOne({ nom: "Briu", "adresse.ville": "Foix" });
 
 db.employes.deleteMany({ prenom: "Christophe" });
+
+db.user.drop();
+
+db.dropDatabase();
