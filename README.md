@@ -30,3 +30,7 @@ Un repo qui permet de réferiencier les supports, les exercices et les réponses
 * [Support-MongoDb-Sauvegarde/Restauration](https://github.com/quemet/I165-NoSQL/tree/main/Support/2024-01-24/S-165-MMN-02-C-MongoDB-Sauvegarde-Restauration.pdf)<br>
 * [Support-MongoDb-VSCode](https://github.com/quemet/I165-NoSQL/tree/main/Support/2024-01-24/S-165-MMN-MongoDB-pour-VSCode.pdf)<br>
 * [Support-NoSQL-Indexation](https://github.com/quemet/I165-NoSQL/tree/main/Support/2024-01-26/S-165-MMN-01-C-DBMS-NoSQL-Structure-Indexation.pdf)<br>
+* [Support-MongoDb-CRUD](https://github.com/quemet/I165-NoSQL/tree/main/Support/2024-01-31/S-165-MMN-03-A-MongoDB-ID-and-CRUD.pdf)<br>
+* [Support-MongoDb-Operateurs/Recherche](https://github.com/quemet/I165-NoSQL/tree/main/Support/2024-01-31/S-165-MMN-03-B-MongoDB-Operateurs-Recherche.pdf)<br>
+
+
