@@ -14,7 +14,7 @@ Un repo qui permet de réferiencier les supports, les exercices et les réponses
 [Exercie01](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/01-Format_JSON/Exercice)
 [Exercie02](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/02-Console/Exercie)
 [Exercie03](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/03-Playground/Exercie)
-Exercie04
-Exercie05
-Exercie06
-Exercie07
+[Exercie04](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/04-Import_backup_restore/Exercie)
+[Exercie05]()
+[Exercie06]()
+[Exercie07]()
