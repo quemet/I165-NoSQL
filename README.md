@@ -1,5 +1,7 @@
 # I165-NoSQL
+
 Un repo qui permet de réferiencier les supports, les exercices et les réponses du module ICT 165.
+
 ## Languages et Outils
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![JSON](https://github.com/quemet/I165-NoSQL/blob/main/Image/JSON.webp)
@@ -11,6 +13,7 @@ Un repo qui permet de réferiencier les supports, les exercices et les réponses
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ## Table des matières
+
 * [Exercie-Format-JSON](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/01-Format_JSON/Exercice)<br>
 * [Exercie-Console](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/02-Console/Exercie)<br>
 * [Exercie-Playground](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/03-Playground/Exercie)<br>
