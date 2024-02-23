@@ -11,10 +11,10 @@ Un repo qui permet de réferiencier les supports, les exercices et les réponses
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ## Table des matières
-[Exercie01](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/01-Format_JSON/Exercice)
-[Exercie02](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/02-Console/Exercie)
-[Exercie03](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/03-Playground/Exercie)
-[Exercie04](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/04-Import_backup_restore/Exercie)
-[Exercie05](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/05-CRUD)
-[Exercie06](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/06%20-%20Recherche)
-[Exercie07]()
+* [Exercie01](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/01-Format_JSON/Exercice)<br>
+* [Exercie02](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/02-Console/Exercie)<br>
+* [Exercie03](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/03-Playground/Exercie)<br>
+* [Exercie04](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/04-Import_backup_restore/Exercie)<br>
+* [Exercie05](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/05-CRUD)<br>
+* [Exercie06](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/06%20-%20Recherche)<br>
+* [Exercie07](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/07-Aggregation)<br>
