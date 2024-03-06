@@ -1,4 +1,4 @@
-// 1
+// Afficher les indexes existants de la collection address
 use('db_index');
 db.address.getIndexes();
 
