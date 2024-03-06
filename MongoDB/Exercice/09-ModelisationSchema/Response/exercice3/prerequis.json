@@ -1,0 +1,4 @@
+{
+  "module_id": "<ObjectId() du module>",
+  "module_prerequis_id": "<ObjectId() du module requis>"
+}

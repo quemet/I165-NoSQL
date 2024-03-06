@@ -1,0 +1,7 @@
+{
+  "_id": "<ObjectId()>",
+  "module": "<string>",
+  "titre": "<string>",
+  "description": "<string>",
+  "crédits": "<string>"
+}

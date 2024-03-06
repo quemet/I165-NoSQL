@@ -1,0 +1,12 @@
+{
+  "_id": "<ObjectId()>",
+  "nom": "<string>",
+  "prenom": "<string>",
+  "adresse": {
+    "numéro de rue": "<number>",
+    "rue": "<string>",
+    "ville": "<string>",
+    "code postale": "<number>"
+  },
+  "cours": ["<ObjectId()> des modules"]
+}
