@@ -33,3 +33,5 @@ Un repo qui permet de réferiencier les supports, les exercices et les réponses
 * [Support-MongoDb-CRUD](https://github.com/quemet/I165-NoSQL/tree/main/Support/2024-01-31/S-165-MMN-03-A-MongoDB-ID-and-CRUD.pdf)<br>
 * [Support-MongoDb-Operateurs/Recherche](https://github.com/quemet/I165-NoSQL/tree/main/Support/2024-01-31/S-165-MMN-03-B-MongoDB-Operateurs-Recherche.pdf)<br>
 * [Support-MongoDb-Aggregation](https://github.com/quemet/I165-NoSQL/tree/main/Support/2024-02-23/S-165-04-Aggregation.pdf)<br>
+* [Support-MongoDb-Index](https://github.com/quemet/I165-NoSQL/blob/main/Support/2024-02-28/S-165-05-Test-Search-Indexes.pdf)<br>
+* [Support-MongoDb-User-Roles](https://github.com/quemet/I165-NoSQL/blob/main/Support/2024-02-28/S-165-07-User-Roles.pdf)<br>
