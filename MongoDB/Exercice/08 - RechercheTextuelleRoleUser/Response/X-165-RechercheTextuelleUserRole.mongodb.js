@@ -4,7 +4,7 @@ db.address.getIndexes();
 
 // Créer un index de type unique dans la collection pour le champ email.
 use('db_index');
-db.address.createIndex({ email: 1 });
+db.address.createIndex({ email: 1 }, { unique: true } );
 
 // Créer un index composé dans la collection pour les champs first_name et last_name.
 use('db_index');
