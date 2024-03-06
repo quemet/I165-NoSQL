@@ -12,7 +12,7 @@ db.address.createIndex({ first_name: 1, last_name: 1 });
 
 // Créer un index composé nommé “street_1” dans la collection pour les champs street et street_number.
 use('db_index');
-db.address.createIndex({ street: 1, street_number: 1}, { name: "street_1" } );
+db.address.createIndex({ "address.street": 1, "address.street_number": 1}, { name: "street_1" } );
 
 // Supprimer l’index “street_1” créer à l'éxercice d'avant
 use('db_index');
