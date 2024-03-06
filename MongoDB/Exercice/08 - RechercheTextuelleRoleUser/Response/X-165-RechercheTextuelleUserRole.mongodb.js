@@ -48,7 +48,7 @@ use('db_index');
 db.createRole({
     role: "Administrator",
     privileges: [],
-    roles: ["userAdmin"],
+    roles: ["dbOwner"],
 });
 
 // Ajouter l’utilisateur manage1 avec le mot de passe manage1234 qui a le rôle Manager sur la base de données “db_index
