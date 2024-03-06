@@ -33,7 +33,7 @@ db.createRole({
     privileges: [
         {
             resource: { db: "db_index", collection: "jobs" },
-            actions: ["find", "insert", "update"],
+            actions: ["find", "insert", "remove", "update"],
         },
         {
             resource: { db: "db_index", collection: "address" },
