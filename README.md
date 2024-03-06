@@ -19,9 +19,9 @@ Un repo qui permet de réferiencier les supports, les exercices et les réponses
 * [Exercie-Playground](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/03-Playground/Exercie)<br>
 * [Exercie-Import-Backup/Restore](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/04-Import_backup_restore/Exercie)<br>
 * [Exercie-CRUD](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/05-CRUD)<br>
-* [Exercie-Recherche](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/06%20-%20Recherche)<br>
+* [Exercie-Recherche](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/06-Recherche)<br>
 * [Exercie-Aggregation](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/07-Aggregation)<br>
-* [Exercie-IndexRoleUser](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/08%20-%20RechercheTextuelleRoleUser)<br>
+* [Exercie-IndexRoleUser](https://github.com/quemet/I165-NoSQL/tree/main/MongoDB/Exercice/08-RechercheTextuelleRoleUser)<br>
 
 
 ## Table des matières des supports de cours
