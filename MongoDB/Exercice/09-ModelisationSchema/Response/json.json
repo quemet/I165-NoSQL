@@ -1,0 +1,25 @@
+{
+    "Etudiant": {
+        "_id": "<ObjectId()>",
+        "nom": "<string>",
+        "prenom": "<string>",
+        "adresse": {
+            "numéro de rue": "<number>",
+            "rue": "<string>",
+            "ville": "<string>",
+            "code postale": "<number>"
+        }
+    },
+    "Cours": {
+        "_id": "<ObjectId()>",
+        "module": "<string>",
+        "titre": "<string>",
+        "description": "<string>",
+        "crédits": "<string>",
+        "prerequis": "<ObjectId()>"
+    },
+    "Prerequis": {
+        "module_id": "<ObjectId()>",
+        "module_prerequis_id": "<ObjectId()>"
+    }
+}
