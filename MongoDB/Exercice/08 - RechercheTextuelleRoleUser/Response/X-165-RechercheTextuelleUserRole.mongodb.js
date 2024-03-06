@@ -48,7 +48,7 @@ use('db_index');
 db.createRole({
     role: "Administrator",
     privileges: [],
-    roles: ["dbAdmin"],
+    roles: ["userAdmin"],
 });
 
 // 10
