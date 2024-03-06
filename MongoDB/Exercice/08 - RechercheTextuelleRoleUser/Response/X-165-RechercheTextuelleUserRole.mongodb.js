@@ -22,11 +22,11 @@ db.address.dropIndex("street_1");
 use('db_index');
 db.jobs.createIndex({ description: "text" });
 
-// 7
+// Rechercher dans la collection “jobs” une description qui contient les mots suivant “Etiam pretium iaculis justo” en utilisant l’opérateur $text
 use('db_index');
 db.jobs.find( { $text: { $search: "Etiam pretium iaculis justo" } } );
 
-// 8
+//  Ajouter un rôle spécifique nommé Manager permétant de pouvoir modifier, ajouter et lire les documents de la collection jobs et permétant de lire et supprimer les documents de la collection address
 use('db_index');
 db.createRole({
     role: "Manager",
@@ -43,7 +43,7 @@ db.createRole({
     roles: [],
 });
 
-// 9
+// Ajouter un rôle spécifique nommé Administrator peut effectuer n'importe quelle action administrative sur la base de données db_index, inclus lecture, écriture et gestion des utilisateur
 use('db_index');
 db.createRole({
     role: "Administrator",
@@ -51,7 +51,7 @@ db.createRole({
     roles: ["userAdmin"],
 });
 
-// 10
+// Ajouter l’utilisateur manage1 avec le mot de passe manage1234 qui a le rôle Manager sur la base de données “db_index
 use('db_index');
 db.createUser({
     user: "manage1",
@@ -59,7 +59,7 @@ db.createUser({
     roles: ["Manager"],
 });
 
-// 11
+// Ajouter l’utilisateur admin1 avec le mot de passe admin1234 qui a le rôle Administrator sur la base de données “db_index
 use('db_index');
 db.createUser({
     user: "admin1",
@@ -67,11 +67,11 @@ db.createUser({
     roles: ["Administrator"],
 });
 
-// 12
+// Afficher tous les rôles de la base de données db_index
 use('db_index');
 db.getRoles();
 
-// 13
+// Afficher les privilèges du rôle Manager
 use('db_index');
 db.getRole("Manager", { 
     showPrivileges: true
