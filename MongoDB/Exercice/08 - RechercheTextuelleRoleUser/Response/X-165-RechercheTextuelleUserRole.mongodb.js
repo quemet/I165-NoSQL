@@ -2,23 +2,23 @@
 use('db_index');
 db.address.getIndexes();
 
-// 2
+// Créer un index de type unique dans la collection pour le champ email.
 use('db_index');
 db.address.createIndex({ email: 1 });
 
-// 3
+// Créer un index composé dans la collection pour les champs first_name et last_name.
 use('db_index');
 db.address.createIndex({ first_name: 1, last_name: 1 });
 
-// 4
+// Créer un index composé nommé “street_1” dans la collection pour les champs street et street_number.
 use('db_index');
 db.address.createIndex({ street: 1, street_number: 1}, { name: "street_1" } );
 
-// 5
+// Supprimer l’index “street_1” créer à l'éxercice d'avant
 use('db_index');
 db.address.dropIndex("street_1");
 
-// 6
+// Ajouter un index de type text pour le champ description de la collection
 use('db_index');
 db.jobs.createIndex({ description: "text" });
 
